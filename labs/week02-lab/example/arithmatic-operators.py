@@ -264,10 +264,7 @@ print("   - Ask for principal, rate, and time")
 print("   - Calculate: A = P * (1 + r/100) ** t")
 print()
 
-print("4. BMI Calculator:")
-print("   - Ask for weight (kg) and height (m)")
-print("   - Calculate: BMI = weight / (height ** 2)")
-print()
+
 
 print("5. Grade Average:")
 print("   - Ask for 3 test scores")
