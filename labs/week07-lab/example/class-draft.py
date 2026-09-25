@@ -1,15 +1,27 @@
-class ClassName:
-    """Class docstring"""
+class ClassName: #แนวทางการแก้ปัญหาหนึ่งเรื่อง/ ตรายาง template /แม่พิมพ์
+    # constructor mentod
+    # การกำหนดข้อมูลที่จำเป็นต้องใช้ในการแก้ปัญหานั้นๆ
     
     def __init__(self, parameters):
         # Constructor method
-        self.attribute = value
-    
-    def method_name(self):
+        self.attribute = parameters
+
+        # method การกระทำ วิธีการในการแก้ปัญหา
+    def method_name1(self):
         # Instance method
         return something
 
+    def method_name2(self):
+        # statement ของการการทำ
+
+# การสร้างวัตถุจาก class ===> การนำแนวทางในการแก้ปัญหาที่ออกแบบไว้มาใช้การปั๊มภาพจากแม่แบบหรือจากตรายาง
 
 myObj = ClassName(parameters)
+
+# การ print ข้อมูลที่ใช้ของวัตถุจาก class
 print(myObj.attribute)
-resultFromMethod = myObj.method_name()
+
+# การใช้งาน method ในวัตถุของคลาส
+
+resultFromMethod = myObj.method_name1()
+myObj.method_name2()
